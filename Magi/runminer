@@ -1,0 +1,4 @@
+#!/bin/sh
+exec nice -n $NICEVALUE  /wolf-m7m-cpuminer-V2/minerd "$@"
+
+
