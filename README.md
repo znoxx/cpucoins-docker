@@ -25,7 +25,7 @@ For example:
 ```
 cd Zoin
 docker build .
-docker run -e NICEVALUE=13 2377ba0f1c00 -a lyra2zoin -o  stratum+tcp://zoin.netabuse.net:3000 -u your_pool_id.worker -p worker_password777
+docker run -e NICEVALUE=13 2377ba0f1c00 -a lyra2zoin -o  stratum+tcp://zoin.netabuse.net:3000 -u your_pool_id.worker -p worker_password
 ```
 
 Exact miner options depend on particular miner. Please check official doc/pool start guide
