@@ -1,0 +1,4 @@
+#!/bin/sh
+exec nice -n $NICEVALUE  /cpuminer-zoin/cpuminer "$@"
+
+
