@@ -32,7 +32,8 @@ Exact miner options depend on particular miner. Please check official doc/pool s
 
 ### Pre-built images
 
-||armhf|gcc7_amrhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
+|arch/coin|armhf|gcc7_amrhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
+|---------|-----|----------|-----|----------|------|-----------|---------------|
 |zoin|OK|OK|N/A|N/A|OK|OK|OK|
 |verium|OK|OK|OK|OK|TBD|OK|OK|
 |electroneum|OK|OK|OK|N/A|TBD|TBD|TBD|
