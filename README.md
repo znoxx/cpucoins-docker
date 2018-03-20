@@ -30,4 +30,13 @@ docker run -e NICEVALUE=13 2377ba0f1c00 -a lyra2zoin -o  stratum+tcp://zoin.neta
 
 Exact miner options depend on particular miner. Please check official doc/pool start guide
 
+### Pre-built images
+
+||armhf|gcc7_amrhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
+|zoin|OK|OK|N/A|N/A|OK|OK|OK|
+|verium|OK|OK|OK|OK|TBD|OK|OK|
+|electroneum|OK|OK|OK|N/A|TBD|TBD|TBD|
+|magi|OK|OK|OK|OK|TBD|TBD|TBD|
+|cpuminer-opt|N/A|N/A|N/A|N/A|N/A|OK|N/A|
+
 #### Happy mining!
