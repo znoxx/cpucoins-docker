@@ -32,9 +32,9 @@ Exact miner options depend on particular miner. Please check official doc/pool s
 
 ### Pre-built images
 
-|arch/coin|armhf|gcc7_amrhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
+|arch/coin|armhf|gcc7_armhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
 |---------|-----|----------|-----|----------|------|-----------|---------------|
-|zoin|[OK](https://hub.docker.com/r/znoxx/zoinminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_armhf/)|N/A|N/A|[OK](https://hub.docker.com/r/znoxx/zoinminer_x86_64/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_x86_64/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_neon_amrhf/)|
+|zoin|[OK](https://hub.docker.com/r/znoxx/zoinminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_armhf/)|N/A|N/A|[OK](https://hub.docker.com/r/znoxx/zoinminer_x86_64/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_x86_64/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_neon_armhf/)|
 |verium|[OK](https://hub.docker.com/r/znoxx/veriumminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/veriumminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/veriumminer_arm64/)|[OK](https://hub.docker.com/r/znoxx/veriumminer_gcc7_arm64/)|TBD|[OK](https://hub.docker.com/r/znoxx/veriumminer_gcc7_x86_64/)|[OK](https://hub.docker.com/r/znoxx/veriumminer_gcc7_neon_armhf/)|
 |electroneum|[OK](https://hub.docker.com/r/znoxx/electroneumminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/electroneumminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/electroneumminer_arm64/)|N/A|TBD|TBD|TBD|
 |magi|[OK](https://hub.docker.com/r/znoxx/magiminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_arm64/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_arm64/)|TBD|TBD|TBD|
