@@ -40,4 +40,8 @@ Exact miner options depend on particular miner. Please check official doc/pool s
 |magi|[OK](https://hub.docker.com/r/znoxx/magiminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_arm64/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_arm64/)|TBD|TBD|TBD|
 |cpuminer-opt|N/A|N/A|N/A|N/A|N/A|[OK](https://hub.docker.com/r/znoxx/cpuminer-opt_gcc7_x86_64/)|N/A|
 
+OK - Image available
+TBD - May be built someday
+N/A - Not available (does not work/compile/exist)
+
 #### Happy mining!
