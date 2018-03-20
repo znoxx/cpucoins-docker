@@ -34,10 +34,10 @@ Exact miner options depend on particular miner. Please check official doc/pool s
 
 |arch/coin|armhf|gcc7_amrhf|arm64|gcc7_arm64|x86_64|gcc7_x86_64|gcc7_neon_armhf|
 |---------|-----|----------|-----|----------|------|-----------|---------------|
-|zoin|OK|OK|N/A|N/A|OK|OK|OK|
-|verium|OK|OK|OK|OK|TBD|OK|OK|
-|electroneum|OK|OK|OK|N/A|TBD|TBD|TBD|
-|magi|OK|OK|OK|OK|TBD|TBD|TBD|
-|cpuminer-opt|N/A|N/A|N/A|N/A|N/A|OK|N/A|
+|zoin|[OK](https://hub.docker.com/r/znoxx/zoinminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/zoinminer_gcc7_armhf/)|N/A|N/A|OK|OK|OK|
+|verium|[OK]https://hub.docker.com/r/znoxx/veriumminer_armhf/)|OK|OK|OK|TBD|OK|OK|
+|electroneum|[OK](https://hub.docker.com/r/znoxx/electroneumminer_armhf/))|OK|OK|N/A|TBD|TBD|TBD|
+|magi|[OK](https://hub.docker.com/r/znoxx/magiminer_armhf/))|OK|OK|OK|TBD|TBD|TBD|
+|cpuminer-opt|N/A|N/A|N/A|N/A|N/A|[OK](https://hub.docker.com/r/znoxx/cpuminer-opt_gcc7_x86_64/)|N/A|
 
 #### Happy mining!
