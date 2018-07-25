@@ -6,6 +6,7 @@ Start mining of cpu-mineable coins on almost any docker-enabled linux.
 
 * Zoin -- https://github.com/zoinofficial/cpuminer-zoin
 * Verium -- https://github.com/fireworm71/veriumMiner
+* Verium-rollmeister -- https://github.com/rollmeister/veriumMiner (aarch64 + gcc8 benefits)
 * Magi -- https://github.com/magi-project/wolf-m7m-cpuminer-V2
 * Electroneum -- https://github.com/xmrig/xmrig
 
@@ -39,6 +40,8 @@ Exact miner options depend on particular miner. Please check official doc/pool s
 |electroneum|[OK](https://hub.docker.com/r/znoxx/electroneumminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/electroneumminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/electroneumminer_arm64/)|N/A|TBD|TBD|TBD|
 |magi|[OK](https://hub.docker.com/r/znoxx/magiminer_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_armhf/)|[OK](https://hub.docker.com/r/znoxx/magiminer_arm64/)|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_arm64/)|TBD|TBD|[OK](https://hub.docker.com/r/znoxx/magiminer_gcc7_neon_armhf)|
 |cpuminer-opt|N/A|N/A|N/A|N/A|N/A|[OK](https://hub.docker.com/r/znoxx/cpuminer-opt_gcc7_x86_64/)|N/A|
+
+[Specific aarch64 version, targeted for cortex A53 and build with GCC8 (AllWinnerH5/H6)](https://hub.docker.com/r/znoxx/veriumminer_rollmeister_gcc8_arm64/)
 
 OK - Image available
 TBD - May be built someday
