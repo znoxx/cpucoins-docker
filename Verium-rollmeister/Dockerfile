@@ -9,8 +9,9 @@ RUN set -x \
     && git clone https://github.com/rollmeister/veriumMiner \
     && cd veriumMiner \
     && ./autogen.sh \
-    && ./configure CC="gcc-8" CXX="g++-8" CFLAGS="-O3 -mcpu=cortex-a53 -flto -fuse-linker-plugin -funroll-loops" CXXFLAGS="-O3 -mcpu=cortex-a53 -flto -fuse-linker-plugin -funroll-loops" RANLIB="aarch64-linux-gnu-gcc-ranlib-8 --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" ARFLAGS="cr --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" --with-curl --with-crypto \
-    && make RANLIB="aarch64-linux-gnu-gcc-ranlib-8 --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" ARFLAGS=" cr --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" LDFLAGS="-O3 -mcpu=cortex-a53 -flto -fuse-linker-plugin -funroll-loops" AR="aarch64-linux-gnu-gcc-ar-8" \
+    && ./configure CC="gcc-8" CXX="g++-8" CFLAGS="-O3 -mcpu=cortex-a53+crypto -flto -fuse-linker-plugin -funroll-loops" CXXFLAGS="-O3 -mcpu=cortex-a53+crypto -flto -fuse-linker-plugin -funroll-loops" RANLIB="aarch64-linux-gnu-gcc-ranlib-8 --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" ARFLAGS="cr --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" --with-curl --with-crypto \
+    && make RANLIB="aarch64-linux-gnu-gcc-ranlib-8 --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" ARFLAGS=" cr --plugin=$(gcc-8 --print-file-name=liblto_plugin.so)" LDFLAGS="-O3 -mcpu=cortex-a53+crypto -flto -fuse-linker-plugin -funroll-loops" AR="aarch64-linux-gnu-gcc-ar-8" \
+    && strip cpuminer \
     && apt-get -y --auto-remove purge $BUILD_DEPS \
     && rm -fr /var/lib/apt-/lists/*
 ENV NICEVALUE 10
